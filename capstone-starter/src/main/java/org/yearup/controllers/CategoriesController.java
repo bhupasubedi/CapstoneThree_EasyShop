@@ -62,7 +62,9 @@ public class CategoriesController {
     @GetMapping("{categoryId}/products")
     @PreAuthorize("permitAll()")
     public List<Product> getProductsById(@PathVariable int categoryId) {
-        return null;
+
+        return productDao.listByCategoryId(categoryId);
+
     }
 
     // add annotation to call this method for a POST action
