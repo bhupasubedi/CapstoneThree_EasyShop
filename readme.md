@@ -13,9 +13,9 @@ EasyShop includes a powerful category management feature with the following capa
     Delete Categories: Remove categories that are no longer needed.
 
 # Categories Endpoints
-## 1.  Get All Categories
+## 1. Get All Categories
     GET /categories
-    Returns a list of all categories. 
+    Returns a list of all categories.
 ![Getall.png](capstone-starter%2Fdatabase%2FPhotos%2FGetall.png)
 
 ## 2.Get Category by ID
