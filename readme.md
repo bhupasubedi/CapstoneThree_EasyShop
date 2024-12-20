@@ -20,7 +20,7 @@ Delete Categories: Remove categories that are no longer needed.
 
 ## 2.Get Category by ID
     GET /categories/{id}
-    Returns details of a specific category.Request Body:
+    Returns details of a specific category.
     ![get1.png](capstone-starter%2Fdatabase%2FPhotos%2Fget1.png)
 
 ## 3. Create a Category
@@ -28,9 +28,9 @@ Delete Categories: Remove categories that are no longer needed.
     Only users with the admin role can create, and this action requires an authentication token.
     ![Createinsert.png](capstone-starter%2Fdatabase%2FPhotos%2FCreateinsert.png)
 
-## 4. Update a Category
-    PUT /categories/{id}
-    Only users with the admin role can update, and this action requires an authentication token.
+## 4. Update a Category  
+    PUT /categories/{id} 
+    Only users with the admin role can update, and this action requires an authentication token. Request Body:
     ![Update.png](capstone-starter%2Fdatabase%2FPhotos%2FUpdate.png)
     ![AfterUpdate.png](capstone-starter%2Fdatabase%2FPhotos%2FAfterUpdate.png)
 
