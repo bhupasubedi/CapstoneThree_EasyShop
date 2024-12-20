@@ -7,10 +7,10 @@ as needed. Built using Java, Spring Boot, and MySQL.
 
 ## Features
 EasyShop includes a powerful category management feature with the following capabilities:
-Create Categories: Allows you to add new categories to organize products.
-Retrieve Categories: View all categories or details of a specific category.
-Update Categories: Modify category names or descriptions as needed.
-Delete Categories: Remove categories that are no longer needed.
+    Create Categories: Allows you to add new categories to organize products.
+    Retrieve Categories: View all categories or details of a specific category.
+    Update Categories: Modify category names or descriptions as needed.
+    Delete Categories: Remove categories that are no longer needed.
 
 # Categories Endpoints
 ## 1.  Get All Categories
